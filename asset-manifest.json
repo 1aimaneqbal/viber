@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/viber/static/css/main.3699d514.chunk.css",
+    "main.js": "/viber/static/js/main.3992e72d.chunk.js",
+    "main.js.map": "/viber/static/js/main.3992e72d.chunk.js.map",
+    "runtime-main.js": "/viber/static/js/runtime-main.3cc91c15.js",
+    "runtime-main.js.map": "/viber/static/js/runtime-main.3cc91c15.js.map",
+    "static/js/2.5ada389d.chunk.js": "/viber/static/js/2.5ada389d.chunk.js",
+    "static/js/2.5ada389d.chunk.js.map": "/viber/static/js/2.5ada389d.chunk.js.map",
+    "index.html": "/viber/index.html",
+    "static/css/main.3699d514.chunk.css.map": "/viber/static/css/main.3699d514.chunk.css.map",
+    "static/js/2.5ada389d.chunk.js.LICENSE.txt": "/viber/static/js/2.5ada389d.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/viber/static/media/bg.8a359afe.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cc91c15.js",
+    "static/js/2.5ada389d.chunk.js",
+    "static/css/main.3699d514.chunk.css",
+    "static/js/main.3992e72d.chunk.js"
+  ]
+}
