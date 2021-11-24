@@ -2,7 +2,7 @@ import React, {useContext} from 'react'
 import { SocketContext } from '../SocketContext'
 
 const VideoPlayer = () => {
-    const { name, callAccepted, myVideo, userVideo, callEnded, stream} = useContext(SocketContext);
+    const { name, callAccepted, myVideo, userVideo, callEnded, stream, call} = useContext(SocketContext);
     return (
         <div className="videoContainer">
             {
@@ -16,7 +16,7 @@ const VideoPlayer = () => {
             {
                 callAccepted && !callEnded && (
                     <div className="video">
-                        <h3>{name || 'Name'}</h3>
+                        <h3>{call.name || 'Name'}</h3>
                         <video playsInline ref={userVideo} autoPlay  />
                     </div>
                 )
